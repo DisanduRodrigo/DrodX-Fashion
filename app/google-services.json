@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "836572163240",
+    "project_id": "drodx-c10b0",
+    "storage_bucket": "drodx-c10b0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836572163240:android:2cb09c29ee02fa2f7ba69d",
+        "android_client_info": {
+          "package_name": "com.example.drodx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnZERtUsKRwCaCbvg2j8hnuUjTfLXoNjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

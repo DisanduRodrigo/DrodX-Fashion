@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:elevation="3dp"
+    android:layout_margin="3dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:scaleType="center"
+
+        android:src="@drawable/fruits"
+        android:id="@+id/view_all_img" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/view_all_name"
+        android:text="Name"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/view_all_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:maxLines="2"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:text="Description is here"
+        android:textSize="16sp" />
+
+        <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+ <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price:"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/alice"
+                            android:textColor="@color/black"/>
+
+
+                        <TextView
+                            android:layout_width="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/alice"
+                            android:gravity="end"
+                            android:text="Rs."
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/view_all_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/alice"
+                            android:text="123"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/alice"
+                            android:gravity="start"
+                            android:text=".00"
+                            android:textSize="19sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ratingbar" />
+
+            <TextView
+                android:id="@+id/view_all_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:text="5.0" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:layout_gravity="end"
+                android:layout_marginRight="6dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

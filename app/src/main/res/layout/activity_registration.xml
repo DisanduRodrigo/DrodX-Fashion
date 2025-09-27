@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegistrationActivity"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/reg_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/regbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name_reg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:hint="Name"
+        android:padding="13dp"
+        android:textColor="@color/black"
+        android:textColorHint="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_img"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/email_reg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:drawableTint="@color/black"
+        android:drawablePadding="13dp"
+        android:elevation="3dp"
+        android:hint="Email"
+        android:padding="13dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_reg"
+        app:layout_constraintWidth_percent=".8"
+        android:textColorHint="#888887"/>
+
+
+
+    <EditText
+        android:id="@+id/password_reg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@drawable/keylog"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:textColorHint="#888887"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="13dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_reg"
+        app:layout_constraintWidth_percent=".8" />
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="14dp"
+        android:text="@string/txt_reg_btn"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_reg" />
+    <TextView
+        android:id="@+id/txt_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_reg1"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_btn"
+        app:layout_constraintVertical_bias=".2" />
+
+
+    <TextView
+        android:id="@+id/txt_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_reg2"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_reg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@+id/txt_reg"
+        app:layout_constraintTop_toTopOf="@+id/txt_reg" />
+
+    <ProgressBar
+        android:id="@+id/progressbar_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_reg"
+        android:scaleX=".5"
+        android:scaleY=".5"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

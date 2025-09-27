@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">DrodX</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="txt_reg1">Already Have An Account?</string>
+    <string name="txt_reg2">Sign In</string>
+    <string name="txt_reg_btn">Sign Up</string>
+
+    <string name="txt_login1">New to DrodX?</string>
+    <string name="txt_login2">Sign Up</string>
+    <string name="txt_login_btn">Sign In</string>
+
+    <string name="txt_welcome_admin">Welcome To Admin Panel </string>
+    <string name="user_admin_panel">Manage Users</string>
+    <string name="user_admin_panel_btn">edit</string>
+    <string name="manage_user_btn">remove</string>
+
+    <string name="txt_splash1">Welcome To DrodX Fashion</string>
+    <string name="txt_splash2">Explore Us</string>
+    <string name="txt_splash3">Login</string>
+    <string name="txt_splash4">Registration</string>
+    <string name="txt_splash_desc">We are Happy To have You!Det Ready purchase fashion items, You Want</string>
+
+    <string name="profile">Profile</string>
+    <string name="category">Category</string>
+    <string name="products">New Products</string>
+    <string name="offers">Offers</string>
+    <string name="orders">My Orders</string>
+    <string name="cart">Cart</string>
+    <string name="home">Home</string>
+
+    <string name="frag_home">Popular Products</string>
+    <string name="frag_home1">View All</string>
+    <string name="frag_home3">Explore Categories</string>
+    <string name="frag_home4">Recommended</string>
+
+    <string name="about_us">DrodX Fashion is a modern m-commerce platform designed for seamless online shopping. We offer a wide range of stylish clothing, ensuring a smooth user experience with easy selecting, secure checkout, and fast delivery. Our mission is to provide trendy fashion at your fingertips, making shopping convenient and enjoyable for everyone.</string>
+
+    <string-array name="provinces">
+        <item>Select Province</item>
+        <item>Western Province</item>
+        <item>Central Province</item>
+        <item>Southern Province</item>
+        <item>Northern Province</item>
+        <item>Eastern Province</item>
+        <item>North Western Province</item>
+        <item>North Central Province</item>
+        <item>Uva Province</item>
+        <item>Sabaragamuwa Province</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Description">Description is here...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="Logout">Logout</string>
+    <string name="frag_home5">All Products</string>
+    <string name="txt_splash5">Admin Login</string>
+    <string name="txt_adminLogin_btn">Admin Sign In</string>
+    <string name="AboutUs">About Us</string>
+    <string name="category_admin_panel">Manage Category</string>
+</resources>

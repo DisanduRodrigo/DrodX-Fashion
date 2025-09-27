@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileFragment"
+    android:background="#F3F1F1">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/profile"
+        app:civ_border_width="5dp"
+        app:civ_border_color="#FF000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="25dp"/>
+
+
+
+    <EditText
+        android:id="@+id/profile_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittext_bg"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:hint="Your Name"
+        android:padding="13dp"
+        android:textColor="@color/black"
+        android:textColorHint="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_img"
+        app:layout_constraintWidth_percent=".8"
+        android:enabled="false"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/profile_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bg"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:drawableTint="@color/black"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:hint="Your Email"
+        android:inputType="textEmailAddress"
+        android:padding="13dp"
+        android:textColor="@color/black"
+        android:textColorHint="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_name"
+        app:layout_constraintWidth_percent=".8"
+        android:enabled="false"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/profile_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bg"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:padding="13dp"
+        android:textColor="@color/black"
+        android:textColorHint="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_email"
+        app:layout_constraintWidth_percent=".8"
+        android:enabled="false"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/profile_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bg"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:hint="Your Address"
+        android:padding="13dp"
+        android:textColor="@color/black"
+        android:textColorHint="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_number"
+        app:layout_constraintWidth_percent=".8"
+        android:enabled="false"
+        android:focusable="false"/>
+
+<!--    <EditText-->
+<!--        android:id="@+id/profile_province"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:background="@drawable/edittext_bg"-->
+<!--        android:drawableLeft="@drawable/ic_baseline_location_on_24"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:elevation="3dp"-->
+<!--        android:hint="Province"-->
+<!--        android:padding="13dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textColorHint="#888887"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/profile_address"-->
+<!--        app:layout_constraintWidth_percent=".8"-->
+<!--        android:enabled="false"-->
+<!--        android:focusable="false" />-->
+
+    <Button
+        android:id="@+id/edit_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:text="Edit"
+        android:textAllCaps="false"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_address" />
+</androidx.constraintlayout.widget.ConstraintLayout>
