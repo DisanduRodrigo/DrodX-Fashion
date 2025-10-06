@@ -3,9 +3,23 @@
 The DrodX Fashion mobile application is a comprehensive **m-commerce solution** for fashion retail, enabling customers to browse, select, and purchase clothing and accessories directly from their mobile devices. The app emphasizes **user-friendly design**, **security**, and **scalability**, offering both **customer-facing features** and an **administrative panel** for efficient store management.
 
 
-## Project Overview
+## 🚀 Project Overview
 
-### User Features
+
+## 🛠️ Technologies Used
+
+* **Frontend:** Android Java (XML for UI)
+* **Backend:** Firebase Authentication, Firestore, Realtime Database, Firebase Storage, Google Maps API
+* **Database:** Firestore and SQLite
+* **Payment Gateway:** PayHere
+* **Development Tools:** Android Studio
+* **Architecture:** Activity & Fragment structure (e.g., LoginActivity, MainActivity, ProductDetailActivity etc.)
+* **Coding Standards:** OOPC concepts & OOD patterns
+
+
+
+
+### 🧩 User Features
 
 * **User Registration & Login:** Secure account creation and login via email/password.
 * **Product Browsing:** View products by categories.
@@ -18,44 +32,12 @@ The DrodX Fashion mobile application is a comprehensive **m-commerce solution** 
 * **Wishlist:** Save items for future purchases.
 * **Customer Support:** Chat or email support.
 
-### Admin Features
+### ✨ Admin Features
 
 * **Customer Management:** View and manage user accounts.
 * **Product Management:** Add, edit, and delete products.
 * **Order Management:** Track and process orders.
-
----
-
-
-
-
-**Objectives:**
-
-* Provide a seamless and engaging shopping experience.
-* Expand online presence and increase sales.
-* Strengthen brand presence with a modern and responsive app.
-
-**Scope of Work:**
-
-* Functional Requirements: User registration, product browsing, search, cart management, secure payments, order tracking, wishlist, notifications, and customer support.
-* Non-Functional Requirements: Security, performance, usability, and scalability.
-* Design: Responsive design, brand consistency, and intuitive UX.
-* Testing & QA: Functional, performance, security testing, and user acceptance testing.
-
-
-
-## Technologies Used
-
-* **Frontend:** Android Java (XML for UI)
-* **Backend:** Firebase Authentication, Firestore, Realtime Database, Firebase Storage, Google Maps API
-* **Database:** Firestore and SQLite
-* **Payment Gateway:** PayHere
-* **Development Tools:** Android Studio
-* **Architecture:** Activity & Fragment structure (e.g., LoginActivity, MainActivity, ProductDetailActivity etc.)
-* **Coding Standards:** OOPC concepts & OOD patterns
-
----
-## Screenshots 
+ 
 
 ## 📸 Screenshots
 
