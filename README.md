@@ -5,20 +5,6 @@ The DrodX Fashion mobile application is a comprehensive **m-commerce solution** 
 
 ## 🚀 Project Overview
 
-
-## 🛠️ Technologies Used
-
-* **Frontend:** Android Java (XML for UI)
-* **Backend:** Firebase Authentication, Firestore, Realtime Database, Firebase Storage, Google Maps API
-* **Database:** Firestore and SQLite
-* **Payment Gateway:** PayHere
-* **Development Tools:** Android Studio
-* **Architecture:** Activity & Fragment structure (e.g., LoginActivity, MainActivity, ProductDetailActivity etc.)
-* **Coding Standards:** OOPC concepts & OOD patterns
-
-
-
-
 ### 🧩 User Features
 
 * **User Registration & Login:** Secure account creation and login via email/password.
@@ -38,6 +24,15 @@ The DrodX Fashion mobile application is a comprehensive **m-commerce solution** 
 * **Product Management:** Add, edit, and delete products.
 * **Order Management:** Track and process orders.
  
+ ## 🛠️ Technologies Used
+
+* **Frontend:** Android Java (XML for UI)
+* **Backend:** Firebase Authentication, Firestore, Realtime Database, Firebase Storage, Google Maps API
+* **Database:** Firestore and SQLite
+* **Payment Gateway:** PayHere
+* **Development Tools:** Android Studio
+* **Architecture:** Activity & Fragment structure (e.g., LoginActivity, MainActivity, ProductDetailActivity etc.)
+* **Coding Standards:** OOPC concepts & OOD patterns
 
 ## 📸 Screenshots
 
